@@ -134,3 +134,32 @@ footer img {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+    width: 100%;
+  }
+
+  .title-bar {
+    top: 0;
+  }
+
+  h2 {
+    background-color: white;
+    color: black;
+    font-size: 1.33rem;
+    font-weight: bold;
+    width: auto;
+    padding: 0.75rem 4rem;
+    position: relative;
+    top: 5rem;
+    right: 2rem;
+  }
+}
