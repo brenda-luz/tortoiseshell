@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 
 html, body {
   font-size: 18px;
@@ -11,6 +9,12 @@ html, body {
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* header */
@@ -72,6 +76,44 @@ h2 {
 }
 
 
+/* features */
+.item {
+  padding: 3rem;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.paper {
+  width: 3.5rem;
+  justify-content: : center;
+}
+
+.ruler, .truck {
+  width: 5rem;
+  height: auto;
+}
+
+
+/* about */
+.about {
+  width: 35%;
+  padding: 1rem 2.5%;
+
+}
+
+h3 {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+}
 
 
 /* footer */
