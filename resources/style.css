@@ -53,3 +53,20 @@ nav {
   display: inline;
   padding: 0 1rem;
 }
+
+.slogan {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h2 {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  width: auto;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 10rem;
+  right: -2rem;
+}
