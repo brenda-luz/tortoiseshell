@@ -70,3 +70,25 @@ h2 {
   top: 10rem;
   right: -2rem;
 }
+
+
+
+
+/* footer */
+footer {
+  max-width: 960px;
+  background-color: azure;
+  color: black;
+  margin-top: 5rem;
+}
+
+.copyright {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
