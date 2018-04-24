@@ -58,6 +58,10 @@ nav {
   padding: 0 1rem;
 }
 
+.phone-menu {
+  display: none;
+}
+
 .slogan {
   display: flex;
   justify-content: flex-end;
@@ -77,6 +81,12 @@ h2 {
 
 
 /* features */
+.item-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .item {
   padding: 3rem;
   height: 8rem;
@@ -88,12 +98,12 @@ h2 {
   text-align: center;
 }
 
-.paper {
+#paper {
   width: 3.5rem;
   justify-content: : center;
 }
 
-.ruler, .truck {
+#ruler, #truck {
   width: 5rem;
   height: auto;
 }
@@ -152,14 +162,78 @@ footer img {
   }
 
   h2 {
-    background-color: white;
-    color: black;
     font-size: 1.33rem;
-    font-weight: bold;
     width: auto;
     padding: 0.75rem 4rem;
     position: relative;
     top: 5rem;
     right: 2rem;
   }
+
+}
+
+
+/* phone */
+@media only screen and (max-width: 670px) {
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  #brand {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .phone-menu {
+    display: inline-block;
+  }
+
+  .phone-menu ul li {
+    display: inline;
+    padding: 0 1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    right: 0;
+  }
+
+  .item-flex {
+    flex-direction: column;
+    align-items: center;
+    padding: 3.77rem 0;
+  }
+
+  .item {
+    padding: .75rem;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .about {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
+  #copyright {
+    display: none;
+  }
+
 }
